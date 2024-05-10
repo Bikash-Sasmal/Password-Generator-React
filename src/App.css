@@ -1,0 +1,176 @@
+* {
+  font-family: sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.google-heading {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.p {
+  color: #4285f4;
+}
+
+.a {
+  color: #ea4335;
+}
+
+.s {
+  color: #fbbc05;
+}
+
+.ss {
+  color: #4285f4;
+}
+
+.w {
+  color: #34a853;
+}
+
+.o {
+  color: #fbbc05;
+}
+
+.r {
+  color: #34a853;
+}
+
+.d {
+  color: #ea4335;
+}
+
+.g {
+  color: #4285f4;
+}
+
+.e {
+  color: #fbbc05;
+}
+
+.n {
+  color: #34a853;
+}
+
+.e {
+  color: #ea4335;
+}
+
+.r {
+  color: #4285f4;
+}
+
+.aa {
+  color: #fbbc05;
+}
+
+.t {
+  color: #34a853;
+}
+
+.o {
+  color: #ea4335;
+}
+
+.r {
+  color: #4285f4;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 24px;
+  margin: 20px 80px 0 80px;
+  box-shadow: 0px 0px 4px 1px;
+}
+
+.header {
+  color: #4285f4;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#myinput {
+  accent-color: #4285f4;
+  border: none;
+}
+
+.checkbox {
+  accent-color: #fbbc05;
+}
+
+/* #2a8b8b */
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #34a853;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copyBtn {
+  height: 100%;
+  font-size: 10px;
+  background-color: #4285f4;
+
+}
+
+.charLength {
+  display: flex;
+  flex-direction: column;
+  color: #ea4335;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charLength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4285f4;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: #4285f4;
+}
